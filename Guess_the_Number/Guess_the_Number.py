@@ -24,9 +24,9 @@ class Random_Num:
       return check_result
     self.number = int(self.number)
     if self.number > self.secret_num:
-      return 'Smaller 📉:\n   '
+      return 'Enter smaller number 📉:\n   '
     elif self.number < self.secret_num:
-      return 'Bigger 📈:\n   '
+      return 'Enter bigger number 📈:\n   '
     else:
       return 'Gotcha'
 
@@ -45,7 +45,7 @@ def main():
   print("Let's go!")
   time.sleep(1)
   print('Choosing a random number... 🤔')
-  time.sleep(4)
+  time.sleep(3)
   counter = 0
   hearts = 6
   result = ''
@@ -67,7 +67,7 @@ def main():
     counter += 1
   if result == 'Gotcha':
     print(f'Gotcha 😊! You found the secret number {usr.secret_num}!\n')
-  time.sleep(3)
+  time.sleep(2)
   print('Stay tuned for upcoming releases 💀')
   
 if __name__=='__main__':
