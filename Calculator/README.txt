@@ -1,6 +1,7 @@
-    This is a calculator program for calculating two numbers with 4 basic actions: addition,
-subtraction, multiplication and division. It recives 4 argumens.
-    The syntax for using the program is
+    This is a terminal-based calculator program for calculating two numbers
+with 4 basic actions: addition, subtraction, multiplication and division. It
+recives 4 argumens.
+    The syntax for using the program is:
 
         python3 calculator.py number1 "action" number2
 
